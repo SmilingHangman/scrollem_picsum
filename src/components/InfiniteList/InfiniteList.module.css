@@ -34,3 +34,8 @@ p {
   flex-shrink: 0;
   background-size: cover;
 }
+@media only screen and (max-width: 570px) {
+  ul {
+    padding: 8px 10px 0px 10px;
+  }
+}
