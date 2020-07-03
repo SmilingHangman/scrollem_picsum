@@ -4,7 +4,7 @@ import Image from '../Image'
 
 export const InfiniteList = () => {
   const [listItems, setListItems] = useState(
-    Array.from(Array(4).keys(), (n) => n + 1)
+    Array.from(Array(6).keys(), (n) => n + 1)
   )
 
   const [isFetching, setIsFetching] = useState(false)
@@ -41,7 +41,7 @@ export const InfiniteList = () => {
   function fetchMoreListItems() {
     setListItems((prevState) => [
       ...prevState,
-      ...Array.from(Array(4).keys(), (n) => n + prevState.length + 1),
+      ...Array.from(Array(6).keys(), (n) => n + prevState.length + 1),
     ])
     setIsFetching(false)
   }

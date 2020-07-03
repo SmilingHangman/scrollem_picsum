@@ -1,10 +1,12 @@
 import React, { useState, useEffect } from 'react'
 import classes from './Image.module.css'
-// const images = require('../../back/fetcher')
+// import { useFetch } from '../CustomHook/useFetch'
 
 export const Image = () => {
   const [imageInfo, setImageInfo] = useState([])
   const [imageId, setImageId] = useState([])
+  const [hasError, setHasError] = useState(false)
+  // const [response, loading, hasError] = useFetch(`https://picsum.photos/id/${Math.floor(Math.random() * 500) + 1}/info`)
 
   useEffect(() => {
     fetch(
@@ -15,6 +17,7 @@ export const Image = () => {
         setImageInfo(data.author)
         setImageId(data.id)
       })
+      .catch((err) => setHasError(true))
   }, [])
 
   return (
@@ -24,8 +27,10 @@ export const Image = () => {
         style={{
           backgroundImage: `url(https://picsum.photos/id/${imageId}/300)`,
         }}
-      ></div>
-      <h3>Author: {imageInfo}</h3>
+      >
+        {hasError && 'Oops! No image, sorry :('}
+      </div>
+      {hasError ? <h3>No author either :'(</h3> : <h3>Author: {imageInfo}</h3>}
     </>
   )
 }
