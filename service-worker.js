@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/scrollem_picsum/precache-manifest.e332f31dabe811299bfa6d4502b2ba05.js"
+  "/scrollem_picsum/precache-manifest.1c0ae488b71edcec71a7674b31d2d964.js"
 );
 
 self.addEventListener('message', (event) => {
