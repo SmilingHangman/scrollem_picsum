@@ -53,7 +53,6 @@ export const InfiniteList = () => {
         {listItems.map((listItem) => (
           <li key={listItem}>
             <Image />
-            {/* <p>List Item {listItem}</p> */}
           </li>
         ))}
       </ul>
