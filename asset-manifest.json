@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/scrollem_picsum/static/css/main.7a68f19c.chunk.css",
+    "main.css": "/scrollem_picsum/static/css/main.64162157.chunk.css",
     "main.js": "/scrollem_picsum/static/js/main.4866bf08.chunk.js",
     "main.js.map": "/scrollem_picsum/static/js/main.4866bf08.chunk.js.map",
     "runtime-main.js": "/scrollem_picsum/static/js/runtime-main.1d436d2b.js",
@@ -8,15 +8,15 @@
     "static/js/2.11c03c00.chunk.js": "/scrollem_picsum/static/js/2.11c03c00.chunk.js",
     "static/js/2.11c03c00.chunk.js.map": "/scrollem_picsum/static/js/2.11c03c00.chunk.js.map",
     "index.html": "/scrollem_picsum/index.html",
-    "precache-manifest.4b9dc2e9c06faada0fb1a2b0f2363138.js": "/scrollem_picsum/precache-manifest.4b9dc2e9c06faada0fb1a2b0f2363138.js",
+    "precache-manifest.8948e25e788ce582773b43c74a6f641c.js": "/scrollem_picsum/precache-manifest.8948e25e788ce582773b43c74a6f641c.js",
     "service-worker.js": "/scrollem_picsum/service-worker.js",
-    "static/css/main.7a68f19c.chunk.css.map": "/scrollem_picsum/static/css/main.7a68f19c.chunk.css.map",
+    "static/css/main.64162157.chunk.css.map": "/scrollem_picsum/static/css/main.64162157.chunk.css.map",
     "static/js/2.11c03c00.chunk.js.LICENSE.txt": "/scrollem_picsum/static/js/2.11c03c00.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.1d436d2b.js",
     "static/js/2.11c03c00.chunk.js",
-    "static/css/main.7a68f19c.chunk.css",
+    "static/css/main.64162157.chunk.css",
     "static/js/main.4866bf08.chunk.js"
   ]
 }
