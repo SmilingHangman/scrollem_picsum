@@ -10,9 +10,9 @@ export const InfiniteList = () => {
   const [isFetching, setIsFetching] = useState(false)
 
   useEffect(() => {
-    window.addEventListener('scroll', debounce(handleScroll, 500))
+    window.addEventListener('scroll', debounce(handleScroll, 150))
     return () =>
-      window.removeEventListener('scroll', debounce(handleScroll, 500))
+      window.removeEventListener('scroll', debounce(handleScroll, 150))
   }, [])
 
   useEffect(() => {
@@ -33,9 +33,7 @@ export const InfiniteList = () => {
   function handleScroll() {
     if (
       // window.innerHeight + document.documentElement.scrollTop !==
-      window.innerHeight +
-        document.documentElement.scrollTop +
-        document.documentElement.scrollTop / 1.7 <=
+      window.innerHeight + document.documentElement.scrollTop * 1.5 <=
       document.documentElement.offsetHeight
     )
       return
