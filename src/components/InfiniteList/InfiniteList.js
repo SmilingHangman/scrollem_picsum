@@ -33,7 +33,9 @@ export const InfiniteList = () => {
   function handleScroll() {
     if (
       // window.innerHeight + document.documentElement.scrollTop !==
-      window.innerHeight + document.documentElement.scrollTop + 300 <=
+      window.innerHeight +
+        document.documentElement.scrollTop +
+        document.documentElement.scrollTop / 1.7 <=
       document.documentElement.offsetHeight
     )
       return

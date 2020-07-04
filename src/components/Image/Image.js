@@ -15,7 +15,7 @@ export const Image = () => {
               backgroundImage: `url(https://picsum.photos/id/${imageId}/300)`,
             }}
           >
-            {hasError && 'Oops! No image, sorry :('}
+            {/* {hasError && 'Oops! No image, sorry :('} */}
           </div>
           <h3>Author: {imageInfo}</h3>
           {/* {hasError ? <h3>No author either :'(</h3> : <h3>Author: {imageInfo}</h3>} */}
