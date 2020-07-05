@@ -8,19 +8,6 @@ ul {
   box-sizing: border-box;
 }
 
-/* li {
-  display: flex;
-  align-items: center;
-  margin: 8px 0px 8px 0px;
-  border: 2px solid rgb(163, 181, 204);
-  border-radius: 8px;
-  box-sizing: border-box;
-  max-width: 600px;
-  background-color: #000000;
-  padding: 3px;
-  box-shadow: 7px 10px 11px #1a1919;
-} */
-
 @media only screen and (max-width: 660px) {
   ul {
     padding: 8px 10px 0px 10px;
